@@ -1,0 +1,15 @@
+footer {
+  font: var(--text-md);
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (width < 80em) {
+    justify-content: center;
+  }
+}
+
+footer div span:nth-child(1) {
+  margin-right: 24px;
+}

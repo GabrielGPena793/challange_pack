@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  gap: 24px;
+}
+
+nav ul li:last-child img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (width < 80rem) {
+  nav ul {
+    gap: 1rem;
+  }
+}
